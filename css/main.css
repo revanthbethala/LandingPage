@@ -1,0 +1,133 @@
+* {
+    font-family: Inter;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 46px;
+    width: 100%;
+}
+
+.main__container-content {
+    padding-left: 100px;
+}
+
+.main__container-image {
+    padding-right: 100px;
+}
+
+.main__container-content p {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 40px;
+
+    font-weight: bold;
+    text-align: start;
+    line-height: 1.5rem;
+}
+
+#main__container-p3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#lessons {
+    color: #4D4D4D;
+}
+
+#years {
+    color: #4CAF4F;
+}
+
+.main__container-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF4F;
+    color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.dot-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+section p {
+    text-align: center;
+}
+
+section p:nth-of-type(1) {
+    font-size: 26px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: #4D4D4D;
+
+}
+
+section p:last-of-type {
+    color: #717171;
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .description {
+    padding-top: 38px;
+}
+
+.description p {
+    text-align: center;
+    color: #4D4D4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.description .content p:nth-of-type(1), p:nth-of-type(2) {
+    line-height: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.description p:last-of-type {
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.description .icons, #description__content__icons, .brief {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#description__content__icons p, #description__content__icons p:nth-last-of-type(2) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom : 0px;
+}
+.brief p {
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    width: 200px;
+    margin:2px;
+} */
