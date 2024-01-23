@@ -1,9 +1,10 @@
 a {
   text-decoration: none;
-  color: #4D4D4D;
+  color: var(--primary-color);
 }
 header{
   padding:10px 0px;
+  background-color:#F5F7FA;
 }
 nav {
   display: flex;
