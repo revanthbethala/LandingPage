@@ -166,7 +166,7 @@ section p:last-of-type {
     font-weight: 400;
     line-height: 20px;
 }
-.pixelgrade button{
+.pixelgrade button, .design__content button{
     margin-top:10px;
     font-size:14px;
     font-weight: 400;
@@ -181,18 +181,89 @@ section p:last-of-type {
     -o-border-radius: 6px;
 }
 .achievements{
+    margin-top: 60px;
     background-color: #F5F7FA;
     display: flex;
     justify-content: space-evenly;
+    padding: 64px 0 64px 0;
 }
-.achievements .achievements-statistics-1,.achievements-statistics-2{
+.achievements__title p:nth-of-type(1){
+    font-weight: 600;
+    font-size: 28px;
+    color:var(--primary-color);
+    margin:4px 2px;
+}
+.achievements__title  p:nth-of-type(2){
+    font-weight: 600;
+    font-size:28px;
+    color:var(--secondary-color);
+    margin:2px;
+}
+.achievements__title p:last-of-type{
+    color:#18191F;
+    font-size: 12px;
+    font-weight: 400;
+}
+.achievements-statistics-1,.achievements-statistics-2{
     display: flex;
     flex-direction: row;
-    /* align-items: center;
-    justify-content: space-between; */
-    gap:40px;
-
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap:40px; */
 }
-.achievements-statistics-icons p:last-of-type{
-    display: block;
+.achievemnts-statistics p:first-of-type{
+    font-weight: 600;
+    font-size:25px;
+    color:var(--primary-color);
+}
+.design,.customers{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+}
+.design .image{
+    width: 88px;
+    height: 147px;
+    padding:0 144px;
+}
+.design__content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 600px;
+    padding: 0 144px;
+    padding-top:30px;
+}
+.design .design__content h2{
+    font-weight: 600;
+    font-size: 30px;
+    color:var(--primary-color);
+    width: 500px;
+    line-height: 40px;
+    margin: 9px 0;
+}
+.design .design__content p{
+    margin:0px;
+    width: 500px;
+    padding : 10px 0;
+    font-size: 11.5px;
+    line-height: 20px;
+    color:var(--primary-color);
+    padding-bottom: 20px;
+}
+.customers{
+    background-color: #F5F7FA;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.customers .customers__image img{
+    width: 301px;
+    /* height: 651px; */
+}
+.customers .customers__content{
+    width:600px;
+    font-size:12px;
+    font-weight: 400;
+    color:var(--primary-color);
 }
